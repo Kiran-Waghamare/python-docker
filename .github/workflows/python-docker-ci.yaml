@@ -41,5 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USER_NAME }}/pyhton-image:latest
+          tags: ${{ secrets.DOCKER_USER_NAME }}/python-image:latest
         
